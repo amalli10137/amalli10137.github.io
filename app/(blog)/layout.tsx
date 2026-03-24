@@ -2,12 +2,14 @@ import './blog.css'
 import 'katex/dist/katex.min.css'
 import Link from 'next/link'
 import { getSiteConfig } from '@/lib/config'
+import BlogMeta from './BlogMeta'
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
   const cfg = getSiteConfig()
 
   return (
     <div className="blog-theme">
+      <BlogMeta />
       <div className="blog-content">
         <h1 style={{ margin: '0 0 0.1em' }}>
           <Link href="/blog" style={{ textDecoration: 'none', color: 'inherit' }}>{cfg.name}</Link>
