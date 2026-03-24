@@ -15,8 +15,8 @@
   background: var(--bg);
   color: var(--text);
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.6;
   min-height: 100vh;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .personal-theme .content {
-  max-width: 900px;
+  max-width: 740px;
   margin: 0 auto;
   padding: 32px 28px;
 }
@@ -45,8 +45,8 @@
 .personal-theme a:visited { color: var(--link-visited); }
 .personal-theme a:hover { color: var(--link-hover); }
 
-.personal-theme h1 { font-size: 2.2rem; font-weight: normal; margin-bottom: 0.2em; }
-.personal-theme h2 { font-size: 1.4rem; font-weight: normal; margin: 1.6em 0 0.4em; }
+.personal-theme h1 { font-size: 2rem; font-weight: normal; margin-bottom: 0.2em; }
+.personal-theme h2 { font-size: 1.3rem; font-weight: normal; margin: 1.6em 0 0.4em; }
 .personal-theme h3 { font-size: 1.1rem; margin: 1.2em 0 0.3em; }
 .personal-theme p  { margin: 0.8em 0; }
 
@@ -59,7 +59,7 @@
 }
 
 .personal-theme .nav-name {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: bold;
   color: var(--nav-name);
 }
@@ -67,7 +67,7 @@
 .personal-theme .nav-links {
   display: flex;
   gap: 1.6em;
-  font-size: 1rem;
+  font-size: 0.95rem;
   align-items: baseline;
 }
 
@@ -88,8 +88,8 @@
 }
 
 .personal-theme .profile-image {
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--profile-bg);
@@ -99,12 +99,12 @@
 .personal-theme .tagline {
   color: var(--tagline);
   font-style: italic;
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-bottom: 0.4em;
 }
 
 .personal-theme .hero-links {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .personal-theme hr { border: none; border-top: 1px solid var(--hr); margin: 2em 0; }
@@ -156,10 +156,10 @@
   }
 
   .personal-theme .profile-image {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
   }
 
-  .personal-theme h1 { font-size: 1.8rem; }
+  .personal-theme h1 { font-size: 1.6rem; }
   .personal-theme h2 { font-size: 1.2rem; }
 }
