@@ -24,7 +24,7 @@ export interface PostMeta {
 export function getAllPosts(): PostMeta[] {
   if (!fs.existsSync(postsDirectory)) return []
 
-  const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md'))
+  const fileNames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md') && !f.startsWith('_'))
 
   const posts = fileNames.map(fileName => {
     const slug = fileName.replace(/\.md$/, '')
@@ -61,13 +61,3 @@ export function getPostBySlug(slug: string): Post | null {
   }
 }
 
-export function getAllTags(): string[] {
-  const posts = getAllPosts()
-  const tagSet = new Set<string>()
-  posts.forEach(p => p.tags.forEach(t => tagSet.add(t)))
-  return Array.from(tagSet).sort()
-}
-
-export function getPostsByTag(tag: string): PostMeta[] {
-  return getAllPosts().filter(p => p.tags.includes(tag))
-}

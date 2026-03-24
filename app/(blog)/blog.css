@@ -1,0 +1,13 @@
+.blog-theme { background: #000; color: #ccc; min-height: 100vh; }
+.blog-theme .blog-content { max-width: 740px; margin: 0 auto; padding: 40px 28px; }
+.blog-theme a { color: #6699ff; }
+.blog-theme a:visited { color: #9977dd; }
+.blog-theme h1 { font-size: 2.6rem; margin: 0 0 0.1em; }
+.blog-theme h2 { font-size: 1.3rem; margin: 1em 0 0.2em; }
+.blog-theme h3 { font-size: 1.1rem; margin: 0.8em 0 0.2em; }
+.blog-theme small, .blog-theme .meta { font-size: 0.85em; color: #888; }
+.blog-theme hr { border: none; border-top: 1px solid #444; }
+.blog-theme pre { background: #111; padding: 10px; overflow-x: auto; }
+.blog-theme code { background: #111; padding: 0 3px; }
+.blog-theme pre code { background: none; padding: 0; }
+.blog-theme blockquote { border-left: 2px solid #444; margin: 0.8em 0; padding-left: 1em; color: #aaa; }
