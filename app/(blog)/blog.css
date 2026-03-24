@@ -1,4 +1,4 @@
-.blog-theme { background: #000; color: #ccc; min-height: 100vh; }
+.blog-theme { background: #000; color: #ccc; min-height: 100vh; min-height: 100dvh; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
 .blog-theme .blog-content { max-width: 740px; margin: 0 auto; padding: 40px 28px; }
 .blog-theme a { color: #6699ff; }
 .blog-theme a:visited { color: #9977dd; }

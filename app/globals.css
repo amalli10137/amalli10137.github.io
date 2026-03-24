@@ -1,2 +1,4 @@
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; overflow-wrap: break-word; }
+html { background: #0f0e0d; }
+[data-theme="light"] { background: #f0ebe1; }
+body { margin: 0; overflow-wrap: break-word; background: inherit; }
