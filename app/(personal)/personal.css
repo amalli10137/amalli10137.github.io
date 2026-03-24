@@ -125,3 +125,37 @@
   text-align: center;
 }
 .theme-toggle:hover { border-color: var(--text); }
+
+@media (max-width: 600px) {
+  .personal-theme .content {
+    padding: 20px 16px;
+  }
+
+  .personal-theme nav {
+    flex-direction: column;
+    gap: 0.6em;
+    margin: 0 0 1.8em;
+  }
+
+  .personal-theme .nav-name {
+    font-size: 1.8rem;
+  }
+
+  .personal-theme .nav-links {
+    gap: 1.2em;
+    flex-wrap: wrap;
+  }
+
+  .personal-theme .hero {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+
+  .personal-theme .profile-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .personal-theme h1 { font-size: 1.8rem; }
+  .personal-theme h2 { font-size: 1.2rem; }
+}

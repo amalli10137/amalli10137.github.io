@@ -11,3 +11,17 @@
 .blog-theme code { background: #111; padding: 0 3px; }
 .blog-theme pre code { background: none; padding: 0; }
 .blog-theme blockquote { border-left: 2px solid #444; margin: 0.8em 0; padding-left: 1em; color: #aaa; }
+.blog-theme img { max-width: 100%; height: auto; }
+
+@media (max-width: 600px) {
+  .blog-theme .blog-content {
+    padding: 24px 16px;
+  }
+
+  .blog-theme h1 { font-size: 1.8rem; }
+  .blog-theme h2 { font-size: 1.2rem; }
+
+  .blog-theme pre {
+    font-size: 0.8rem;
+  }
+}
