@@ -36,7 +36,7 @@
 }
 
 .personal-theme .content {
-  max-width: 740px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 32px 28px;
 }
@@ -100,7 +100,11 @@
   color: var(--tagline);
   font-style: italic;
   font-size: 1rem;
-  margin-bottom: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+.personal-theme .hero-links {
+  font-size: 0.9rem;
 }
 
 .personal-theme hr { border: none; border-top: 1px solid var(--hr); margin: 2em 0; }
