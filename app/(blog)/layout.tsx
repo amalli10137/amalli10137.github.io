@@ -14,8 +14,8 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
         </h1>
         {cfg.tagline && (
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', margin: '0 0 0.8em' }}>
-            <p style={{ margin: 0, fontSize: '0.85em', color: '#888' }}>{cfg.tagline}</p>
-            <Link href="/" style={{ fontSize: '0.8rem', color: '#888' }}>home</Link>
+            <span style={{ fontSize: '0.85em', color: '#888' }}>{cfg.tagline}</span>
+            <Link href="/" style={{ fontSize: '0.85em', color: '#888', flexShrink: 0 }}>home</Link>
           </div>
         )}
         {children}
