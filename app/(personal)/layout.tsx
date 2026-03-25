@@ -21,7 +21,7 @@ export default function PersonalLayout({ children }: { children: React.ReactNode
         </nav>
         {children}
         <footer className="site-footer">
-          Last Updated March 2025 &middot; Vibe Coded Using Claude Code
+          Last Updated March 2026 &middot; Vibe Coded Using Claude Code
         </footer>
       </div>
     </div>
