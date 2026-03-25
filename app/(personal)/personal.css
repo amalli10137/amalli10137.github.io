@@ -116,12 +116,23 @@
   margin-top: 0.6em;
 }
 
-.personal-theme .hero-links a {
+.personal-theme .hero-links a,
+.personal-theme .hero-links span {
   display: inline-flex;
   align-items: center;
+  gap: 0.4em;
 }
 
 .personal-theme hr { border: none; border-top: 1px solid var(--hr); margin: 2em 0; }
+
+.personal-theme .site-footer {
+  margin-top: 4em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--hr);
+  font-size: 0.75rem;
+  color: var(--tagline);
+  text-align: center;
+}
 
 .personal-theme .page-title {
   font-size: 1.3rem;
